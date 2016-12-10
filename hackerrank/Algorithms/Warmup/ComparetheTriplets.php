@@ -16,7 +16,7 @@ fscanf($handle,"%d %d %d",$b0,$b1,$b2);
        $alice++; 
     }elseif($b1 > $a1){
        $bob++;
-    }
+    }  
 
     if($a2 > $b2) {
        $alice++; 
@@ -25,5 +25,4 @@ fscanf($handle,"%d %d %d",$b0,$b1,$b2);
     }
 
      echo $alice." ".$bob;
-
 ?>
